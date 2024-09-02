@@ -1,0 +1,135 @@
+diff --git a/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd b/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd
+deleted file mode 100644
+index 35176f4..0000000
+Binary files a/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd and /dev/null differ
+diff --git a/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd.meta b/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd.meta
+deleted file mode 100644
+index de7b897..0000000
+--- a/Assets/Prefabs/Resources/Spaceship Fighter Spear XB/Textures/spaceship_fighter_spear.psd.meta	
++++ /dev/null
+@@ -1,56 +0,0 @@
+-fileFormatVersion: 2
+-guid: 14e3835d1bd2e10499b2c82d0870cb11
+-timeCreated: 1457987133
+-licenseType: Store
+-TextureImporter:
+-  fileIDToRecycleName: {}
+-  serializedVersion: 2
+-  mipmaps:
+-    mipMapMode: 0
+-    enableMipMap: 1
+-    linearTexture: 0
+-    correctGamma: 0
+-    fadeOut: 0
+-    borderMipMap: 0
+-    mipMapFadeDistanceStart: 1
+-    mipMapFadeDistanceEnd: 3
+-  bumpmap:
+-    convertToNormalMap: 0
+-    externalNormalMap: 0
+-    heightScale: .25
+-    normalMapFilter: 0
+-  isReadable: 0
+-  grayScaleToAlpha: 0
+-  generateCubemap: 0
+-  cubemapConvolution: 0
+-  cubemapConvolutionSteps: 8
+-  cubemapConvolutionExponent: 1.5
+-  seamlessCubemap: 0
+-  textureFormat: -1
+-  maxTextureSize: 2048
+-  textureSettings:
+-    filterMode: -1
+-    aniso: -1
+-    mipBias: -1
+-    wrapMode: -1
+-  nPOTScale: 1
+-  lightmap: 0
+-  rGBM: 0
+-  compressionQuality: 50
+-  allowsAlphaSplitting: 0
+-  spriteMode: 0
+-  spriteExtrude: 1
+-  spriteMeshType: 1
+-  alignment: 0
+-  spritePivot: {x: .5, y: .5}
+-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+-  spritePixelsToUnits: 100
+-  alphaIsTransparency: 0
+-  textureType: -1
+-  buildTargetSettings: []
+-  spriteSheet:
+-    sprites: []
+-  spritePackingTag: 
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
+diff --git a/Assets/_Scenes/Daniele.unity b/Assets/_Scenes/Daniele.unity
+index c402035..3f1f0b2 100644
+--- a/Assets/_Scenes/Daniele.unity
++++ b/Assets/_Scenes/Daniele.unity
+@@ -266,6 +266,48 @@ Transform:
+   m_Father: {fileID: 0}
+   m_RootOrder: 0
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!1001 &1367944898
++Prefab:
++  m_ObjectHideFlags: 0
++  serializedVersion: 2
++  m_Modification:
++    m_TransformParent: {fileID: 0}
++    m_Modifications:
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalPosition.x
++      value: 197.08058
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalPosition.y
++      value: 0.79578656
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalPosition.z
++      value: 125.32661
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalRotation.x
++      value: 0
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalRotation.y
++      value: 0
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalRotation.z
++      value: 0
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_LocalRotation.w
++      value: 1
++      objectReference: {fileID: 0}
++    - target: {fileID: 444006, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++      propertyPath: m_RootOrder
++      value: 1
++      objectReference: {fileID: 0}
++    m_RemovedComponents: []
++  m_ParentPrefab: {fileID: 100100000, guid: feed7f0bf9c28ea458500c3b332a4678, type: 2}
++  m_IsPrefabParent: 0
+ --- !u!1 &1392936479
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -329,7 +371,7 @@ Transform:
+   m_LocalScale: {x: 1, y: 1, z: 1}
+   m_Children: []
+   m_Father: {fileID: 0}
+-  m_RootOrder: 1
++  m_RootOrder: 2
+   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+ --- !u!1 &1803694905
+ GameObject:
+@@ -400,5 +442,5 @@ Transform:
+   m_LocalScale: {x: 1, y: 1, z: 1}
+   m_Children: []
+   m_Father: {fileID: 0}
+-  m_RootOrder: 3
++  m_RootOrder: 4
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
